@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 from fpdf import FPDF
 
-API_KEY = "AIzaSyASZwwGKEsQb6QgnBOu4Pi8IHO9ed21i1I"
+API_KEY = "API KEY"
 genai.configure(api_key=API_KEY)
 
 if "chat" not in st.session_state:
